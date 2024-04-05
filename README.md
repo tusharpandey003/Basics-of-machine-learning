@@ -20,3 +20,10 @@ on basis of points we divide the category in dataset to get Target label.
 we were using two differnt embedding methods -
 Tensorflowhub Embedding Model 
 LSTM embedding model
+
+\\\\\\\\\\\\\
+
+ML3---
+
+Trying  Four Different Algorithms on dataset to check which one has higher Accuracy of all of them.
+Logisic Regression, Naive Bayes , K Nearest Neighbor , SVM are the four algorithms used in this Notebook.
