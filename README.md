@@ -1,7 +1,6 @@
 # Machine Learning
 
 
-\\\\\\\\\\\\\\
 
 
 ML1---
@@ -38,6 +37,8 @@ Together, these models provide a robust and comprehensive analysis of wine quali
 
 \\\\\\\\\\\\\
 
+
+
 ML3---
 
 
@@ -48,3 +49,17 @@ Each algorithm brings its own strengths to the table. Logistic Regression provid
 The model is trained using each of these algorithms, and their performance is evaluated based on their accuracy. The algorithm with the highest accuracy is considered the most effective for this specific dataset.
 
 This approach not only helps in finding the most accurate algorithm but also provides insights into how different machine learning algorithms perform under the same conditions. It’s a comprehensive method to harness the power of machine learning for gamma telescope data analysis.
+
+
+
+\\\\\\\\\\\\\\
+
+
+
+The repository you’re referring to is dedicated to the application of machine learning for the detection of Parkinson’s disease. Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. The symptoms are not easily noticeable and there are no definitive diagnostic methods available1.
+
+The repository uses a dataset extracted from the UCI repository, which contains features from voice recordings of patients. These features are part of some other diagnostics which are generally used to capture the difference between a healthy and affected person. 
+
+The machine learning model in this repository is trained on this acoustic dataset of patients. The model uses Python libraries like Pandas, Numpy, Matplotlib, Sklearn,  and Imblearn1. 
+
+The goal of this project is to help in the detection of Parkinson’s disease, which is not easily diagnosed and detected.  This shows the power of machine learning in solving real-world problems and potentially improving the lives of patients with Parkinson’s disease.
