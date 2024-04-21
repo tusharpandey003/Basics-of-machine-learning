@@ -54,12 +54,28 @@ This approach not only helps in finding the most accurate algorithm but also pro
 
 \\\\\\\\\\\\\\
 
+ML-4
 
 
-The repository you’re referring to is dedicated to the application of machine learning for the detection of Parkinson’s disease. Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. The symptoms are not easily noticeable and there are no definitive diagnostic methods available1.
+
+Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. The symptoms are not easily noticeable and there are no definitive diagnostic methods available1.
 
 The repository uses a dataset extracted from the UCI repository, which contains features from voice recordings of patients. These features are part of some other diagnostics which are generally used to capture the difference between a healthy and affected person. 
 
 The machine learning model in this repository is trained on this acoustic dataset of patients. The model uses Python libraries like Pandas, Numpy, Matplotlib, Sklearn,  and Imblearn1. 
 
 The goal of this project is to help in the detection of Parkinson’s disease, which is not easily diagnosed and detected.  This shows the power of machine learning in solving real-world problems and potentially improving the lives of patients with Parkinson’s disease.
+
+
+\\\\\\\\\\\\\
+
+ML-5
+
+
+This is a bioinformatics project that uses machine learning for drug discovery. It utilizes the ChEMBL database, which is a manually curated database of bioactive molecules with drug-like properties1. The project focuses on the coronavirus, and aims to identify potential drug candidates.
+
+The Jupyter notebook in the repository uses Lipinski descriptors, RDKit, and PaDEL software for the analysis. Lipinski’s rule of five is a rule of thumb to evaluate druglikeness or determine if a chemical compound with a certain pharmacological or biological activity has properties that would make it a likely orally active drug in humans. RDKit is a collection of cheminformatics and machine learning tools1. PaDEL software is used to calculate molecular descriptors and fingerprints.
+
+The potential drug candidates are analyzed and in the end, a machine learning model is built using the Random Forest algorithm. Random Forest is a popular and versatile machine learning method that is capable of performing both regression and classification tasks1. It also handles a large proportion of missing values and maintains accuracy when a large proportion of the data are missing1.
+
+The goal of the model is to check the efficiency of protein molecules for binding. This is crucial in drug discovery as the interaction between drug molecules and protein targets is the key to the therapeutic effect. The project demonstrates the power of machine learning in accelerating drug discovery and potentially contributing to the fight against diseases like coronavirus.
