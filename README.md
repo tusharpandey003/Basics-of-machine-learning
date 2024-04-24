@@ -79,3 +79,19 @@ The Jupyter notebook in the repository uses Lipinski descriptors, RDKit, and PaD
 The potential drug candidates are analyzed and in the end, a machine learning model is built using the Random Forest algorithm. Random Forest is a popular and versatile machine learning method that is capable of performing both regression and classification tasks1. It also handles a large proportion of missing values and maintains accuracy when a large proportion of the data are missing1.
 
 The goal of the model is to check the efficiency of protein molecules for binding. This is crucial in drug discovery as the interaction between drug molecules and protein targets is the key to the therapeutic effect. The project demonstrates the power of machine learning in accelerating drug discovery and potentially contributing to the fight against diseases like coronavirus.
+
+
+
+\\\\\\\\\\\\\
+
+
+ML-6
+
+
+This notebook you’re referring to is focused on building a neural network using TensorFlow, a popular deep learning library. The project explores different parameters and hyperparameters for constructing the neural network.
+
+The repository uses three different types of neural layers (16, 32, 64), two dropout layer probabilities (0, 0.2), and three different learning rates on three different batch sizes (32, 64, 128). Dropout is a regularization technique for reducing overfitting in neural networks by preventing complex co-adaptations on training data. Learning rate is a hyperparameter that determines how much we are adjusting the weights of our network with respect to the loss gradient.
+
+The model is analyzed with the least validation loss to check accuracy. Validation loss is a metric that tells you how much error your model made on the validation dataset. It’s used to monitor the model during training and to choose the best version of the model.
+
+In total, 54 different combinations of parameters and hyperparameters were analyzed. This comprehensive analysis helps in understanding the impact of different parameters and hyperparameters on the performance of the model.
