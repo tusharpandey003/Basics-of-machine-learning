@@ -1,8 +1,5 @@
 # Machine Learning
 
-
-
-
 ML1---
 
 Diabetes prediction with help of tensorflow sequential model.
@@ -54,7 +51,7 @@ This approach not only helps in finding the most accurate algorithm but also pro
 
 \\\\\\\\\\\\\\
 
-ML-4
+ML-4---
 
 
 
@@ -69,7 +66,7 @@ The goal of this project is to help in the detection of Parkinson’s disease, w
 
 \\\\\\\\\\\\\
 
-ML-5
+ML-5---
 
 
 This is a bioinformatics project that uses machine learning for drug discovery. It utilizes the ChEMBL database, which is a manually curated database of bioactive molecules with drug-like properties1. The project focuses on the coronavirus, and aims to identify potential drug candidates.
@@ -85,7 +82,7 @@ The goal of the model is to check the efficiency of protein molecules for bindin
 \\\\\\\\\\\\\
 
 
-ML-6
+ML-6---
 
 
 This notebook you’re referring to is focused on building a neural network using TensorFlow, a popular deep learning library. The project explores different parameters and hyperparameters for constructing the neural network.
@@ -95,3 +92,24 @@ The repository uses three different types of neural layers (16, 32, 64), two dro
 The model is analyzed with the least validation loss to check accuracy. Validation loss is a metric that tells you how much error your model made on the validation dataset. It’s used to monitor the model during training and to choose the best version of the model.
 
 In total, 54 different combinations of parameters and hyperparameters were analyzed. This comprehensive analysis helps in understanding the impact of different parameters and hyperparameters on the performance of the model.
+
+
+
+\\\\\\\\\\\\\
+
+ML-7---  Introduction to Keras Tuner
+
+
+The Keras Tuner is a library that helps you pick the optimal set of hyperparameters for your TensorFlow program. The process of selecting the right set of hyperparameters for your machine learning (ML) application is called hyperparameter tuning or hypertuning.
+
+In this notebook, we will use the Keras Tuner to find the best hyperparameters for a machine learning model that classifies images of clothing from the Fashion MNIST dataset.
+
+When you build a model for hypertuning, you also define the hyperparameter search space in addition to the model architecture. The model you set up for hypertuning is called a hypermodel.
+
+In this Notebook, we use a model builder function to define the image classification model. The model builder function returns a compiled model and uses hyperparameters you define inline to hypertune the model.
+
+Instantiate the tuner to perform the hypertuning. The Keras Tuner has four tuners available - RandomSearch, Hyperband, BayesianOptimization, and Sklearn. We use the Hyperband tuner.To instantiate the Hyperband tuner, you must specify the hypermodel, the objective to optimize and the maximum number of epochs to train (max_epochs).
+
+The Hyperband tuning algorithm uses adaptive resource allocation and early-stopping to quickly converge on a high-performing model. This is done using a sports championship style bracket. The algorithm trains a large number of models for a few epochs and carries forward only the top-performing half of models to the next round. Hyperband determines the number of models to train in a bracket by computing 1 + logfactor(max_epochs) and rounding it up to the nearest integer.
+
+The my_dir/intro_to_kt directory contains detailed logs and checkpoints for every trial (model configuration) run during the hyperparameter search. If you re-run the hyperparameter search, the Keras Tuner uses the existing state from these logs to resume the search. To disable this behavior, pass an additional overwrite=True argument while instantiating the tuner.
